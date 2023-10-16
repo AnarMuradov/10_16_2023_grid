@@ -1,0 +1,85 @@
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #f1f1f1
+}
+nav{
+    width: 300px;
+    min-height: 100vh;
+    background-color: white;
+    position: fixed;
+    margin-left: 75px;
+}
+.navbarprof{
+    width: 300px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 16px;
+}
+.navbarprof p{
+    color: grey;
+}
+.navbarprof h4{
+    font-size: 24px;
+
+}
+.navbarprof img{
+    width: 120px;
+    height: 120px;
+}
+.navbarbox{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 300px;
+    height: 115px;
+    justify-content: center;
+    padding-left: 8px;
+}
+.navbarbox i{
+    margin-left: 10px;
+}
+.navbarbox a{
+    margin-left: 10px;
+}
+.webicon{
+    width: 330px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 16px;
+    margin-top: 30px;
+}
+.myprtf{
+    display: grid;
+    width: 1140px;
+    height: 172px;
+    align-content: space-evenly;
+    justify-content: space-around;
+}
+.head h2{
+    font-size: 40px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.myprtf .filter button{
+height: 39px;
+padding: 8px 16px;
+}
+.btnall{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.line{
+    width: 1440px;
+    height: 4px;
+    background-color: grey;
+    position: absolute;
+    left: 391px;
+}
